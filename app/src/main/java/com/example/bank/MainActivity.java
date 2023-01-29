@@ -31,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public void run(){
-            double a=10000;
-            for (int i = 0; i < a; i++) {
+            for (int i = 0; i < 1000; i++) {
                 if (Objects.equals(notification, "+")) {
                     sum+= 1000*(Math.random());
                 }
